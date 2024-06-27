@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Documents</title>
+</head>
+
+<body>
+  <section class="main_sec">
+    <h2>Convert String to XML</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+      <input type="file" name="myFile" />
+      <input type="submit" />
+    </form>
+
+    <form action="/textConvert" method="post">
+      <span>Type Here to convert </span>
+      <textarea name="toConvert" cols="30" rows="8"></textarea>
+
+      <div class="buttons">
+        <button>Submit</button>
+        <input type="reset" value="RESET"/>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>
